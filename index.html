@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Library</title>
+</head>
+<body>
+    <div class="header">PROJECT LIBRARY</div>
+    <div class="user-input">
+            <form class="newbook">
+                <div class="title-new">Add a new book</div>
+                <div class="input-line"><label for="book-name">What's the book name?</label> 
+                    <input  class="inputtxt"  type="text" id="book-name">
+                </div>
+                <div class="input-line">
+                    <label for="book-author">Who is the author?</label> 
+                    <input  class="inputtxt"type="text" id="book-author">
+                </div>
+                <div class="input-line">
+                    <label for="book-pages">How many pages?</label> 
+                    <input class="inputtxt"type="text" id="book-pages">
+                </div>
+                    <p><label for="book-read">Have you read it?</label> 
+                    <input type="checkbox" id="book-read"></checkbox></p>
+                    <div class="book-btns">
+                    <button class="book-submit" type="reset" id="add-book-btn">+</button>
+                    <button  class="book-cancel" type="submit">X</button>
+                   </div>
+            </form>
+    </div>
+    <div class="library-grid">
+        <div class="book"><p>Book Name</p> <p>Book Author</p>
+        <p>200</p> </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
