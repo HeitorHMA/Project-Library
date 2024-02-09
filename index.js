@@ -1,17 +1,6 @@
 let form = document.querySelector("form")
 let addBookBtn = document.getElementById("add-book-btn")
 let bookLibrary = document.querySelector(".library-grid")
-
-function book(name , author , pages , isRead){
-    this.name = name
-    this.author = author
-    this.pages = pages
-    this.isRead = isRead
-    this.info = function()
-    {
-        console.log(`${name} by ${author} has ${pages} pages and is ${isRead}`)
-    }
-}
 function addBook(name , author , pages , isRead){
     console.log(`${name} by ${author} has ${pages} pages `)
     let div = document.createElement("div");
@@ -31,3 +20,10 @@ form.addEventListener('submit',(event)=>{
     userisRead.value = "";
 let newBook = new book(userName, userAuthor, userPages ,userRead)
 console.log(newBook.info())})
+
+
+FORM(
+OBJECT(
+    ADD()
+)
+)
